@@ -17,7 +17,10 @@ body{
   padding: 0.8rem 0.8rem;
   background-color: #038C77;
 }
-.navbar a{
+.navbar-link{
+  color: #fff;
+}
+.navbar-brand{
   color: #FFFFFF;
 }
 .navbar-nav{
@@ -29,6 +32,9 @@ body{
 }
 .navbar-items{
   text-align: center;
+}
+.navbar-nav-adaptive{
+  display: none;
 }
 /*--- header ---*/
 .header-content{
@@ -180,4 +186,56 @@ a.bt-header:active {
 .footer-info span{
   font-size: 18px;
   font-weight: 600;
+}
+/*--- search ---*/
+.search-box{
+  display: flex;
+  /*position: absolute;
+  background-color:#D97E00;*/
+  height: 20px;
+  border-radius: 40px;
+  padding: 10px;
+}
+.sersh-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+.search-txt{
+  border: none;
+  outline: none;
+  background: none;
+  padding: 0;
+  color: #fff;
+  font-size: 16px;
+  transition: 0.4s;
+  /*line-height: 40px;*/
+  width: 0;
+}
+.search-box:hover{
+  background-color:#fff;
+}
+.search-box:hover .search-txt{
+  width: 240px;
+  padding:  0 6px;
+  color:#333333;
+}
+.search-box:hover .sersh-btn{
+  background-color: #D97E00;
+  color:#000;
+  background-color: #fff;
+}
+.search-box a{
+  color:#fff;
+}
+
+
+
+
+
+.navbar-barnd-adaptive{
+  display: none;
 }

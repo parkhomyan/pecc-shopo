@@ -1,0 +1,12 @@
+body{
+  background-color: #808080;
+}
+.grid div{
+  background-color: #0CC0A4;
+  border: 2px solid red;
+}
+.grid{
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  grid-auto-rows: ;
+}

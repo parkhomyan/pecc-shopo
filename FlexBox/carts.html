@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="css/master.css">
   <link rel="stylesheet" href="css/cart-main.css">
   <link rel="stylesheet" href="css/slider.css">
+  <link rel="stylesheet" href="css/hamburger-menu.css">
   <link rel="stylesheet" href="css/adaptive.css">
   <title>Shopogolic</title>
 </head>
@@ -20,18 +21,36 @@
       <div class="navbar-wrapper">
         <div class="container">
         <nav class="navbar row">
-        <a href="index.html" class="navbar-brand col-md-3">Peculliar Shopogolic</a>
+          <div class="navbar-brand-desktop col-md-3">
+            <a href="index.html" class="navbar-brand ">Peculliar Shopogolic</a>
+          </div>
+          <div class="navbar-barnd-adaptive col-md-2">
+            <a href="index.html" class="navbar-brand ">Pe-Sh</a>
+          </div>
         <ul class="navbar-nav col-md-6">
           <li class="navbar-items col-md-2"><a href="index.html" class="navbar-link">Home</a></li>
           <li class="navbar-items col-md-2"><a href="carts.html" class="navbar-link">Carts</a></li>
           <li class="navbar-items col-md-2"><a href="contacts.html" class="navbar-link">Contacts</a></li>
           <li class="navbar-items col-md-2"><a href="blog.html" class="navbar-link">Blog</a></li>
         </ul>
-        <div class="search-box col-md-2">
-          <form class="search-form">
-           <input type="search" name="s" placeholder="Search...">
-           <input type="submit" value="Go">
-          </form>
+        <div class="navbar-nav-adaptive col-md-6">
+          <div class="section">
+            <div class="menu-box">
+              <nav class="menu-hb-nav menu-hb-nav-active">
+                <a class="menu-hb-nav-link" href="index.html">Home</a>
+                <a class="menu-hb-nav-link" href="carts.html">Carts</a>
+                <a class="menu-hb-nav-link" href="contacts.html">Cont</a>
+                <a class="menu-hb-nav-link" href="blog.html">Blog</a>
+              </nav>
+              <a href="#" class="menu-btn"><span></span></a>
+            </div>
+          </div>
+        </div>
+        <div class="search-wrapper col-md-2">
+         <div class="search-box">
+           <input class="search-txt" type="text" name="s" placeholder="Search...">
+           <a href="#" class="sersh-btn"><i class="fas fa-search"></i></a>
+        </div>
         </div>
       </nav>
         </div>
@@ -81,6 +100,12 @@
       <!-- carts -->
       <div class="carts-wrapper">
        <div class="container">
+         <div class="carts row">
+           <div class="title-box col-md-8">
+             <h2>New Product</h2>
+             <p>dolor sit amet</p>
+           </div>
+         </div>
           <div class="carts row">
             <div class="cart-box col-md-2">
               <div class="cart">
@@ -224,6 +249,8 @@
       </footer>
   </div>
 </div>
-  <script src="https://kit.fontawesome.com/d2397ebe82.js" crossorigin="anonymous"></script>
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/hamburger-menu.js"></script>
+<script src="https://kit.fontawesome.com/d2397ebe82.js" crossorigin="anonymous"></script>
 </body>
 </html>
