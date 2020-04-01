@@ -1,55 +1,72 @@
+.header{
+  display: none;
+}
 .slider-wrapper{
   width: 100%;
   background-color: #0CC0A4;
 }
-.slider{
-
-}
-.slider-row{
-  width: 60%;
-  margin: auto;
+.slide{
   justify-content: center;
   padding: 30px 0;
 }
-.img-slider img{
+.slide-img img{
   width: 100%;
 }
-.img-slider{
+.slide-img{
   padding-right: 50px;
 }
-.title-slider h2{
+.slide-title h2{
   font-size: 40px;
   color: rgb(255, 255, 255);
   line-height: 0.885;
   text-transform: uppercase;
 }
-.title-slider p{
-  font-size: 17px;
+.slide-title p{
+  font-size: 16px;
   color: rgb(255, 255, 255);
   line-height: 1.647;
   padding: 20px 0;
 }
-.header-button{
+.slider-button{
   border-style: solid;
   border-width: 3px;
   border-color: rgb(255, 255, 255);
   border-radius: 5px;
   background-color: rgba(255, 255, 255, 0);
-  position: absolute;
   width: 120px;
   text-align: center;
   padding: 10px;
   color: rgb(255, 255, 255);
   text-transform: uppercase;
 }
-.header-button a{
+.slider-button-link{
   color: rgb(255, 255, 255);
   text-transform: uppercase;
-  padding: 14px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-right: 14px;
+  padding-left: 14px;
 }
-.header-button:hover{
+.slider-button:hover{
   background-color: #fff;
 }
-.header-button-link:hover{
+.slider-button-link:hover{
   color:#000;
+}
+.slider-dot{
+  text-align: center;
+  padding-top:25px;
+}
+.slider-dot i{
+  padding-right: 10px;
+  color:#C0C0C0;
+}
+.slider-dot i:last-child{
+  padding:0;
+}
+.slider-dot i:nth-child(2){
+  color:#fff;
+}
+.slide-content-ad{
+  display: none;
 }

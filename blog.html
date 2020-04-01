@@ -5,9 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="css/reboot.css">
-  <link rel="stylesheet" href="css/row.css">
+  <link rel="stylesheet" href="css/adaptive-row.css">
   <link rel="stylesheet" href="css/master.css">
   <link rel="stylesheet" href="css/blog-main.css">
+  <link rel="stylesheet" href="css/adaptive.css">
   <title>Shopogolic</title>
 </head>
 <body>
@@ -16,115 +17,126 @@
     <div id="app">
       <!-- navbar -->
       <div class="navbar-wrapper">
+        <div class="container">
         <nav class="navbar row">
-        <a href="index.html" class="navbar-brand col-3">Peculliar Shopogolic</a>
-        <ul class="navbar-nav col-6">
-          <li class="navbar-items col-2"><a href="index.html" class="navbar-link">Home</a></li>
-          <li class="navbar-items col-2"><a href="carts.html" class="navbar-link">Carts</a></li>
-          <li class="navbar-items col-2"><a href="contacts.html" class="navbar-link">Contacts</a></li>
-          <li class="navbar-items col-2"><a href="blog.html" class="navbar-link">Blog</a></li>
+        <a href="index.html" class="navbar-brand col-md-3">Peculliar Shopogolic</a>
+        <ul class="navbar-nav col-md-6">
+          <li class="navbar-items col-md-2"><a href="index.html" class="navbar-link">Home</a></li>
+          <li class="navbar-items col-md-2"><a href="carts.html" class="navbar-link">Carts</a></li>
+          <li class="navbar-items col-md-2"><a href="contacts.html" class="navbar-link">Contacts</a></li>
+          <li class="navbar-items col-md-2"><a href="blog.html" class="navbar-link">Blog</a></li>
         </ul>
-        <div class="search-box col-2">
+        <div class="search-box col-md-2">
           <form class="search-form">
            <input type="search" name="s" placeholder="Search...">
            <input type="submit" value="Go">
           </form>
         </div>
-        <nav class="navbar">
+      </nav>
+        </div>
       </div>
       <!-- header -->
-      <header class="header row">
-        <div class="col-10 h1-hed">
+      <header class="header">
+        <div class="container">
+        <div class="header-content row">
+        <div class="col-md-10 h1-hed">
           <h1 class="header-h1">Peculliar Shopogolic</h1>
         </div>
-        <div class="col-10 p-hed">
+        <div class="col-md-10 p-hed">
           <p class="header-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
         </div>
-        <div class="col-10 bt-hed">
+        <div class="col-md-10 bt-hed">
           <a href="#" class="bt-header">Main Action</a>
           <a href="about.html" class="bt-header">Tell Me More</a>
+        </div>
+        </div>
         </div>
       </header>
       <!-- blog -->
       <div class="blog-wrapper">
-        <div class="blog row">
-          <div class="blog-title-h col-8">
-            <h2>Blog</h2>
-          </div>
-          <div class="blog-coll col-5">
-            <img class="blog-img" src="img/blog1.png" alt="Blog1" class="blog-img">
-            <div class="blog-title">
-              Blog Title 1
-            </div>
-            <div class="blog-info">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        <div class="container">
+          <div class="blog row">
+            <div class="blog-tl">
+              <div class="blog-h">Blog</div>
+              <div class="blog-p">Alure amore item</div>
             </div>
           </div>
-          <div class="blog-coll col-5">
-            <img class="blog-img" src="img/blog2.jpg" alt="Blog2" class="blog-img">
-            <div class="blog-title">
-              Blog Title 2
+          <div class="blog row">
+            <div class="blog-content col-md-5">
+              <img src="img/blog1.png" alt="" class="blog-img">
+              <div class="blog-title">Blog Tiltle 1</div>
+              <div class="blog-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
             </div>
-            <div class="blog-info">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </div>
-          </div>
-          <div class="blog-coll col-5">
-            <img class="blog-img" src="img/blog3.jpg" alt="Blog3" class="blog-img">
-            <div class="blog-title">
-              Blog Title 3
-            </div>
-            <div class="blog-info">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            <div class="blog-content col-md-5">
+              <img src="img/blog2.jpg" alt="" class="blog-img">
+              <div class="blog-title">Blog Tiltle 2</div>
+              <div class="blog-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
             </div>
           </div>
-          <div class="blog-coll col-5">
-            <img class="blog-img" src="img/blog4.jpg" alt="Blog4" class="blog-img">
-            <div class="blog-title">
-              Blog Title 4
+          <div class="blog row">
+            <div class="blog-content col-md-5">
+              <img src="img/blog3.jpg" alt="" class="blog-img">
+              <div class="blog-title">Blog Tiltle 3</div>
+              <div class="blog-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
             </div>
-            <div class="blog-info">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            <div class="blog-content col-md-5">
+              <img src="img/blog4.jpg" alt="" class="blog-img">
+              <div class="blog-title">Blog Tiltle 4</div>
+              <div class="blog-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
             </div>
           </div>
-          <div class="blog-bt col-10"><a href="#" class="blog-bt-link">Download more</a></div>
+          <div class="blog row">
+            <div class="blog-bt">
+              <a href="#" class="blog-bt-link">Load more</a>
+            </div>
+          </div>
         </div>
       </div>
       <!-- footer -->
-      <footer class="footer row">
-          <div class="footer-info col-3">
-            <ul>
-              <span class="footer-info-sp">Example</span>
-              <li class="footer-item"><a href="#" class="footer-link">Example</a></li>
-              <li class="footer-item"><a href="#" class="footer-link">Example</a></li>
-              <li class="footer-item"><a href="#" class="footer-link">Example</a></li>
-            </ul>
-          </div>
-          <div class="footer-info col-3">
-            <ul>
-              <span class="footer-info-sp">Example</span>
-              <li class="footer-item"><a href="#" class="footer-link">Example</a></li>
-              <li class="footer-item"><a href="#" class="footer-link">Example</a></li>
-              <li class="footer-item"><a href="#" class="footer-link">Example</a></li>
-            </ul>
-          </div>
-          <div class="footer-info col-3">
-            <ul>
-              <span class="footer-info-sp">Example</span>
-              <li class="footer-item"><a href="#" class="footer-link">Example</a></li>
-              <li class="footer-item"><a href="#" class="footer-link">Example</a></li>
-              <li class="footer-item"><a href="#" class="footer-link">Example</a></li>
-            </ul>
-          </div>
-          <div class="copyright col-10">
-            <div class="site-info-copyright">
-            Lorem ipsum <a href="#" class="footer-link">Example</a> <span>dolor</span>  sit amet, consectetur adipisicing elit</div>
-            <div class="social-icon">
-              <a href="#" class="soc-ic-fb"><i class="fab fa-facebook"></i></a>
-              <a href="#" class="soc-ic-insta"><i class="fab fa-instagram"></i></a>
-              <a href="#" class="soc-ic-linkedin"><i class="fab fa-linkedin-in"></i></a>
-              <a href="#" class="soc-ic-ggplus"><i class="fab fa-google-plus-g"></i></a>
-            </div>
+      <footer class="footer">
+          <div class="container">
+            <div class="footer-wrapper">
+              <div class="footer-content row">
+                <div class="contact-ad col-md-8">
+                  <ul>
+                    <li class="contact-ad-item-h2"><h2>Ave contacts</h2></li>
+                    <li class="contact-ad-item-p"><p>Number -- Number</p></li>
+                    <li class="contact-ad-item-p"><p>Adress -- Adress</p></li>
+                    <li class="contact-ad-item-p"><p>Adress -- Adress</p></li>
+                  </ul>
+                </div>
+                <div class="footer-info col-md-3">
+                <ul><span class="footer-info-sp">Example</span>
+                    <li class="footer-item"><a href="#" class="footer-link">Example</a></li>
+                    <li class="footer-item"><a href="#" class="footer-link">Example</a></li>
+                    <li class="footer-item"><a href="#" class="footer-link">Example</a></li>
+                </ul>
+              </div>
+                <div class="footer-info col-md-3">
+                <ul><span class="footer-info-sp">Example</span>
+                    <li class="footer-item"><a href="#" class="footer-link">Example</a></li>
+                    <li class="footer-item"><a href="#" class="footer-link">Example</a></li>
+                    <li class="footer-item"><a href="#" class="footer-link">Example</a></li>
+                </ul>
+              </div>
+                <div class="footer-info col-md-3">
+                <ul><span class="footer-info-sp">Example</span>
+                    <li class="footer-item"><a href="#" class="footer-link">Example</a></li>
+                    <li class="footer-item"><a href="#" class="footer-link">Example</a></li>
+                    <li class="footer-item"><a href="#" class="footer-link">Example</a></li>
+                </ul>
+              </div>
+                <div class="site-info-copyright col-md-7">
+                  Lorem ipsum <a href="tets-cart.html" class="footer-link">Example</a> <span>dolor</span>  sit amet, consectetur adipisicing elit
+              </div>
+                <div class="social-icon col-md-3">
+                <a href="#" class="soc-ic-fb"><i class="fab fa-facebook"></i></a>
+                <a href="#" class="soc-ic-insta"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="soc-ic-linkedin"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" class="soc-ic-ggplus"><i class="fab fa-google-plus-g"></i></a>
+              </div>
+              </div>
+           </div>
           </div>
       </footer>
   </div>
